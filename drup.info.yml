@@ -1,0 +1,17 @@
+name: bhanu
+description: My First Drupal Theme
+type: theme
+package: Custom
+core: 8.x
+
+regions:
+  header: Items of header
+  content: Items of content
+  sidebar_first: First sidebar
+  sidebar_second: Second sidebar
+  footer: Items of footer
+  breadcrumbs: Items of breadcrumbs
+
+libraries:
+  - drup/global-assets
+  - drup/style  
